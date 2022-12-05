@@ -1,15 +1,21 @@
 <template>
   <div class="ui secondary pointing menu">
     <a class="active item">
-      Home
-    </a>
-    <a class="item">
-      Messages
-    </a>
-    <a class="item">
-      Friends
+      Image Storage
     </a>
     <div class="right menu">
+      <a class="ui item">
+        Gallery
+      </a>
+      <a class="ui item">
+        Upload
+      </a>
+      <a class="ui item">
+        Register
+      </a>
+      <a class="ui item">
+        Logout
+      </a>
       <a class="ui item">
         Logout
       </a>
