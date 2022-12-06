@@ -14,7 +14,7 @@
         Register
       </a>
       <a class="ui item">
-        Logout
+        Login
       </a>
       <a class="ui item">
         Logout
