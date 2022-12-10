@@ -21,11 +21,13 @@ npm run lint
 ```
 
 ### Customize configuration
-we use imgur to upload images. (https://imgur.com/)
+we use google drive to upload images. (https://drive.google.com/)
 
 
 ### Run using Docker
 ```
-docker build -t vuejs/vuejs-image-uploader
-docker run -it -p 8080:8080 --rm --name vuejs-image-uploader vuejs/vuejs-image-uploader
+docker-compose build
+docker-compose up -d
+
+http://localhost:8080/
 ```
