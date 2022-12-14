@@ -12,6 +12,9 @@ export default {
   name: 'App',
   components: {
     AppHeader,
+  },
+  beforeCreate() {
+    this.$store.dispatch("setAppName", process.env.VUE_APP_APP_NAME);
   }
 }
 </script>

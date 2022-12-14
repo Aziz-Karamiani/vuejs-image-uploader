@@ -1,7 +1,7 @@
 <template>
   <div class="ui secondary pointing menu">
     <a class="active item">
-      Image Storage
+      {{ getAppName }}
     </a>
     <div class="right menu">
       <a class="ui item">
@@ -25,7 +25,12 @@
 
 <script>
 export default {
-  name: "AppHeader"
+  name: "AppHeader",
+  computed: {
+    getAppName() {
+      return this.$store.getters.getAppName;
+    }
+  }
 }
 </script>
 
