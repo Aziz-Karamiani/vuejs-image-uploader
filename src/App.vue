@@ -1,6 +1,9 @@
 <template>
   <div>
     <AppHeader></AppHeader>
+    <div>
+      <img src="./assets/logo.png" alt="vue">
+    </div>
   </div>
 </template>
 
